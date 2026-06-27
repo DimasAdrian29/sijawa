@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  sijawa-web:
+    build: .
+    container_name: sijawa_container
+    ports:
+      - "8020:80"
+    restart: always
